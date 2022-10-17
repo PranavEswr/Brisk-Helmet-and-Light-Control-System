@@ -9,6 +9,7 @@ Product consists of two sections a helmet section and a bike section
 
 # Results
 The output of the project is shown in a prototype. The several stages of the programming is shown below with help of the serial monitor on Arduino IDE software.
+
 ![3](https://user-images.githubusercontent.com/91025454/193393864-a097f83a-04fb-4a9b-83a8-8b4fa56c9ec2.JPG)
 
 We know that the helmet contains a snap/Roll switch for the presence of helmet. The program is written in such a way that there is no useful output when switch is inactive which means there is no output in the Normally Open pin of the switch which is connected in series with a Resistor (100Ω) to one of the digital pins. A Serial.println command is used to give a visual feed of the above mentioned state.
